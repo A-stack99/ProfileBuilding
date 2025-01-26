@@ -4,14 +4,11 @@ const styles = StyleSheet.create({
   bg: {
     backgroundColor: "#27334E",
     flex: 0, 
-    // padding: width * 0.05,
-    // paddingBottom: 100,
   },
   profileInfo: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    // marginBottom: height * 0.05,
     marginTop: 20,
     marginBottom: 25,
     backgroundColor: "#27334E",

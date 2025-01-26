@@ -6,7 +6,7 @@ import {
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import { launchImageLibrary } from 'react-native-image-picker';
 import { OverView } from "./OverView";
-import styles from "./style";
+import styles from "./styleProfile";
 
 // const { width, height } = Dimensions.get('window').width; 
 
@@ -41,7 +41,7 @@ const ProfilePage = () => {
               </TouchableOpacity>
             </View>
           <Image 
-            source={imageUri ? { uri: imageUri } :require('../Images/ProfilePic.jpg')}
+            source={imageUri ? { uri: imageUri } :require('../assests/images/ProfilePic.jpg')}
             style={styles.profileImage}
           />
           <View>
